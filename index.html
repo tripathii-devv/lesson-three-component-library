@@ -11,12 +11,12 @@
 
 <body>
     <h1>Component Library</h1>
-    <p>This is a component library by Dev Tripathi.Currently I am learning JS, HTML,CSS</p>
+    <p>This is a component library by Dev Tripathi. Currently I am learning <strong>JS, HTML,CSS.</strong></p>
     <hr>
     <h2>@typography</h2>
     <h1>This is the biggest heading</h1>
     <h2>This is the second biggest heading</h2>
-    <p>Let me show you the normal text </p>
+    <p>Let me show you the normal text,<strong> you can also use bold text</strong> </p>
     <small>This type of text is smaller than the normal one</small>
     <hr>
     <h2>@containers</h2>
@@ -51,51 +51,53 @@
     </ol>
     <hr>
     <h2>@nav</h2>
-    <nav>
-        <div>IamDeveloper</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="nav container">
+        <div><strong>IamDeveloper</strong></div>
+        <ul class="list-nav">
+            <li class="list-inline">
+                <a class="link" href="/"><strong>Home</strong></a>
             </li>
-            <li>
-                <a href="/">Product</a>
+            <li class="list-inline">
+                <a class="link" href="/">Product</a>
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class="list-inline">
+                <a class="link" href="/">About</a>
             </li>
         </ul>
     </nav>
     <hr>
     <h2>@header</h2>
-    <header>
-        <img src="/images/header-img.svg" />
-        <h1>This is the header</h1>
+    <header class="hero">
+        <img class="hero-img" src="/images/header-img.svg" />
+        <h1 class="hero-heading">I am a <span class="high-text">Web Developer</span></h1>
     </header>
     <hr>
     <h2>@section</h2>
-    <section>
-        <h3>white section</h3>
-        <div>
+    <section class="section">
+        <h1>white section</h1>
+        <div class="pad">
             This is a section with a white background.
         </div>
+        <a class="link link-primary" href="/">primary button</a>
     </section>
-    <section>
-        <h3>off-white section</h3>
-        <div>
+    <section class="section white-off">
+        <h1>off-white section</h1>
+        <div class="pad">
             This section has off white background.
         </div>
+        <a class="link link-primary" href="/">primary button</a>
     </section>
     <hr>
     <h2>@footer</h2>
-    <div>Some information in small text </div>
-    <ul>
-        <li>Social one</li>
-        <li>Social two</li>
-        <li>Social three</li>
+    <section class="footer">
+    <h1 class="footer-heading">This is the heading inside the footer</h1>
+    <ul class="non-bullet-list">
+        <li class="footer-inline"><a class="links footer-link" href="/">social one</a></li>
+        <li class="footer-inline"><a class="links footer-link" href="/">social two</a></li>
+        <li class="footer-inline"><a class="links footer-link" href="/">social three</a></li>
     </ul>
-    <hr>
-
-
+    </section>
+    
 </body>
 
 </html>
